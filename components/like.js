@@ -26,7 +26,8 @@ class LikeButton extends React.Component {
         }
         {showLoginButton ?
           <button type="button" className={"btn btn-success btn-lg"} onClick={() => this.startLogin()}>
-            <i className="fa fa-fw fa-inverse fa-sign-in mr-2"></i>Login
+            <i className="fa fa-fw fa-inverse fa-sign-in"></i>
+            Login
           </button>
           : null
         }
