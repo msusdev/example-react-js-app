@@ -1,4 +1,4 @@
 ReactDOM.render(
-    React.createElement(LikeButton), 
+    React.createElement(MsalComponent), 
     document.querySelector('#react_container')
 );
