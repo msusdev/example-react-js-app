@@ -1,4 +1,4 @@
-class LikeButton extends React.Component {
+class MsalComponent extends React.Component {
   state = {
     status: null,
     showLoginButton: true,
